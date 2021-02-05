@@ -1,0 +1,45 @@
+body{
+    background: lightgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    background: lightcyan;
+}
+.header{
+    background: lightcoral;
+    height: 70px;
+    text-align: center;
+}
+.section{
+    background: lightskyblue;
+    height: 70px;
+}
+.contentleft{
+    background: lightslategrey;
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+.contentright{
+    background: lightsteelblue;
+    height: 200px;
+    width: 70%;
+    float: right;
+}
+.footer{
+    background: lightpink;
+    height: 200px;
+    text-align: center
+}
+.contentleft ul li{
+    /* border-bottom: 1px solid black; */
+    list-style: none;
+}
+.contentleft ul li a{    
+    color: white;
+}
+.contentleft ul li a:hover{
+    color: blue;
+}
